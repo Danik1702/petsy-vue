@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import colors from '../styles'
+import { colors } from '../styles'
 
 export default {
   name: 'PawIcon',

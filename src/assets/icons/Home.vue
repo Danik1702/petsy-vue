@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import colors from '../styles'
+import { colors } from '../styles'
 
 export default {
   name: 'HomeIcon',
@@ -32,6 +32,7 @@ export default {
   width: 24px;
   height: 24px;
   display: flex;
-  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 </style>
