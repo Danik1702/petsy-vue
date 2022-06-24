@@ -26,7 +26,7 @@
                 class="header-nav__list__item__text"
                 :class="{ selected: routeName === ROUTES.home }"
               >
-                Home
+                {{ text.header.home }}
               </p>
             </div>
           </router-link>
@@ -48,7 +48,7 @@
                 class="header-nav__list__item__text"
                 :class="{ selected: routeName === ROUTES.breeds }"
               >
-                Breeds
+                {{ text.header.breeds }}
               </p>
             </div>
           </router-link>
@@ -70,7 +70,7 @@
                 class="header-nav__list__item__text"
                 :class="{ selected: routeName === ROUTES.filter }"
               >
-                Filter
+                {{ text.header.filter }}
               </p>
             </div>
           </router-link>
@@ -92,7 +92,7 @@
                 class="header-nav__list__item__text"
                 :class="{ selected: routeName === ROUTES.comparison }"
               >
-                Comparison
+                {{ text.header.comparison }}
               </p>
             </div>
           </router-link>
@@ -114,7 +114,7 @@
                 class="header-nav__list__item__text"
                 :class="{ selected: routeName === ROUTES.careCheck }"
               >
-                Care check
+                {{ text.header.careCheck }}
               </p>
             </div>
           </router-link>
@@ -133,6 +133,7 @@ import LikeAndDislikeIcon from '@/assets/icons/LikeAndDislike.vue'
 import QuestionMarkIcon from '@/assets/icons/QuestionMark.vue'
 import { ROUTES } from '@/constants'
 import { colors } from '@/assets/styles'
+import { text } from '@/mock/engText'
 
 export default {
   components: {
@@ -147,6 +148,7 @@ export default {
     return {
       ROUTES,
       colors,
+      text,
     }
   },
   computed: {

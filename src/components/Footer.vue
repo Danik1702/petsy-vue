@@ -3,7 +3,7 @@
     <div class="footer__copyright">
       <p class="footer__copyright__text">
         <span>&copy;</span>
-        2022 All rights reserved
+        {{ text.footer.copyright }}
       </p>
     </div>
 
@@ -30,26 +30,28 @@
 <script>
 import LogoIcon from '@/assets/icons/Logo.vue'
 import { ROUTES } from '@/constants'
+import { text } from '@/mock/engText'
 
 export default {
   components: { LogoIcon },
   data() {
     return {
       ROUTES,
+      text,
       navData: [
         {
           id: 0,
-          text: 'Home',
+          text: text.footer.home,
           linkName: ROUTES.home,
         },
         {
           id: 1,
-          text: 'Breeds',
+          text: text.footer.breeds,
           linkName: ROUTES.breeds,
         },
         {
           id: 2,
-          text: 'Filter',
+          text: text.footer.filter,
           linkName: ROUTES.filter,
         },
       ],

@@ -1,7 +1,9 @@
 <template>
   <div id="layout">
     <Header />
-    <router-view />
+    <div id="page-width">
+      <router-view />
+    </div>
     <Footer />
   </div>
 </template>
@@ -32,18 +34,54 @@ nav {
   padding: 30px;
 
   a {
-    text-decoration: none;
     color: #000000;
     font-weight: 500;
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 #layout {
   min-height: 100vh;
   position: relative;
+  box-sizing: border-box;
+  padding-bottom: 93px;
+
+  #page-width {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 }
 
 .selected {
   color: #ff9f0a;
+}
+
+.jc-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bad-result {
+  background-color: #fff4f4;
+
+  span {
+    color: #d42323;
+  }
+}
+
+.good-result {
+  background-color: #ecffed;
+
+  span {
+    color: #19b61f;
+  }
 }
 </style>
