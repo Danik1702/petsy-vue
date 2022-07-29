@@ -9,8 +9,8 @@ import {
 export default createStore({
   state: {
     pets: [],
-    pet: null,
-    initialSet: null,
+    pet: {},
+    initialSet: {},
   },
   mutations: {
     GET_PETS(state, pets) {
@@ -24,26 +24,34 @@ export default createStore({
     },
   },
   actions: {
-    getPetsList: async ({ commit }) => {
+    getPetsList: async ({ commit }, requestOptions) => {
       try {
-        const response = await getPetsList()
+        const response = await getPetsList(requestOptions)
         commit('GET_PETS', response.data)
       } catch (error) {
         console.log(error)
       }
     },
-    getPetById: async ({ commit }, petId) => {
+    getPetById: async ({ commit, state }, petId) => {
+      if (state.pet.id === petId) {
+        return
+      }
+
       try {
         const response = await getPetById(petId)
-        commit('GET_PET', response.data)
+        commit('GET_PET', response.data[0])
       } catch (error) {
         console.log(error)
       }
     },
-    getPetByBreed: async ({ commit }, petBreed) => {
+    getPetByBreed: async ({ commit, state }, petBreed) => {
+      if (state.pet.breed === petBreed) {
+        return
+      }
+
       try {
         const response = await getPetByBreed(petBreed)
-        commit('GET_PET', response.data)
+        commit('GET_PET', response.data[0])
       } catch (error) {
         console.log(error)
       }

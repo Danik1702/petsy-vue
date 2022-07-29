@@ -1,7 +1,7 @@
 import { API } from '@/api'
 
-export const getPetsList = () => {
-  return API.get('/pets')
+export const getPetsList = ({ query = '', start = 0, limit = 10 }) => {
+  return API.get(`/pets?_start=${start}&_limit=${limit}&breed_like=${query}`)
 }
 
 export const getPetById = (id) => {
