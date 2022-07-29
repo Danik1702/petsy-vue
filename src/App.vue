@@ -47,11 +47,17 @@ li {
   list-style-type: none;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+}
+
 #layout {
   min-height: 100vh;
   position: relative;
   box-sizing: border-box;
-  padding-bottom: 93px;
+  padding-bottom: 143px;
 
   #page-width {
     width: 100%;
