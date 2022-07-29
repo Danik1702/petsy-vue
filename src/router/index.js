@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/Home/Home.vue'
-import BreadsView from '../views/Breads.vue'
+import BreadsView from '../views/Breeds/Breads.vue'
 import CareCheckView from '../views/CareCheck.vue'
 import ComparisonView from '../views/Comparison.vue'
-import FilterView from '../views/Filter.vue'
+import FilterView from '../views/Filter/Filter.vue'
+import BreedDetailsView from '../views/BreedDetails/BreedDetails.vue'
 import { ROUTES } from '@/constants'
 
 const routes = [
@@ -13,9 +14,14 @@ const routes = [
     component: HomeView,
   },
   {
-    path: '/breads',
+    path: '/breeds',
     name: ROUTES.breeds,
     component: BreadsView,
+  },
+  {
+    path: '/breed/:breed',
+    name: ROUTES.breedDetails,
+    component: BreedDetailsView,
   },
   {
     path: '/care-check',
