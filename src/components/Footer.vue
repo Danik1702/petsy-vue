@@ -16,7 +16,7 @@
     <div>
       <nav>
         <ul class="footer__nav-list">
-          <li v-for="navItem of navData" :key="navItem.id">
+          <li v-for="navItem in navData" :key="navItem.id">
             <router-link :to="{ name: navItem.linkName }">
               <span>{{ navItem.text }}</span>
             </router-link>

@@ -162,7 +162,7 @@ export default {
 <style lang="scss" scoped>
 .header-height {
   height: 84px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .header {
@@ -170,6 +170,7 @@ export default {
   position: fixed;
   top: 0;
   background-color: #ffffff;
+  z-index: 5;
 
   .heaer-nav {
     height: 84px;
