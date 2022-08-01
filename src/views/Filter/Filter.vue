@@ -3,7 +3,7 @@
     <div class="filter-page__header-section">
       <h1>{{ text.filterPage.filter }}</h1>
     </div>
-    <form class="filter-page__form" @submit.prevent="resetForm">
+    <form class="filter-page__form" @submit.prevent="handleSubmit">
       <div class="filter-page__input-section">
         <slider
           v-model="formData.timeSpend"
@@ -75,7 +75,7 @@
         <div class="submit-section__button-wrap">
           <primary-button
             :text="text.common.reset"
-            :clickHandler="resetForm"
+            :clickHandler="handleResetForm"
             backgroundColor="#F7F7F6"
             color="#000000"
           />
@@ -92,6 +92,7 @@ import PrimaryButton from '@/components/Buttons/Primary.vue'
 import PetSize from './components/PetSize.vue'
 import { text } from '@/mock/engText'
 import { FILTER_DATA } from '@/mock/filterData'
+import { ROUTES } from '@/constants'
 
 export default {
   name: 'FilterView',
@@ -102,6 +103,29 @@ export default {
       formData: { ...FILTER_DATA },
     }
   },
+  created() {
+    if (this.$route.query.size) {
+      const {
+        timeSpend,
+        moneySpend,
+        securityLevel,
+        size,
+        easeToTrain,
+        idealForFamily,
+        goodForFlat,
+      } = this.$route.query
+
+      this.formData = {
+        timeSpend: Number(timeSpend),
+        moneySpend: Number(moneySpend),
+        securityLevel: Number(securityLevel),
+        size,
+        easeToTrain: JSON.parse(easeToTrain),
+        idealForFamily: JSON.parse(idealForFamily),
+        goodForFlat: JSON.parse(goodForFlat),
+      }
+    }
+  },
   methods: {
     sizeClickHandler(newSize) {
       if (newSize === this.formData.size) {
@@ -110,8 +134,15 @@ export default {
 
       this.formData = { ...this.formData, size: newSize }
     },
-    resetForm() {
+    handleResetForm() {
       this.formData = { ...FILTER_DATA }
+      this.$router.push({ query: null })
+    },
+    handleSubmit() {
+      this.$router.push({ query: this.formData })
+      setTimeout(() => {
+        this.$router.push({ name: ROUTES.breeds, query: this.formData })
+      }, 0)
     },
   },
 }
