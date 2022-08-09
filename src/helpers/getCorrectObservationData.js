@@ -8,7 +8,7 @@ export const getCorrectWeight = (value) =>
   `${value} ${text.unitsOfMeasurement.weight}`
 export const getCorrectCost = (value) => `${value} $`
 export const getCorrectMaintenanceCost = (value) =>
-  `${value} ${text.unitsOfMeasurement.dollarsPerMonth}`
+  `${value} ${text.unitsOfMeasurement.moneyPerMonth}`
 export const getCorectCareTime = (value) =>
   `${value} ${text.unitsOfMeasurement.hoursPerDay}`
 

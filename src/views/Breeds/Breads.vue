@@ -6,12 +6,33 @@
         :placeholder="text.breedsPage.searchPlaceholder"
         v-model="searchValue"
       />
-      <div v-show="false" class="header-container__buttons-container"></div>
+      <div
+        v-if="appliedFiltersCount"
+        class="header-container__buttons-container"
+      >
+        <div class="buttons-container__button-wrap">
+          <rounded-button
+            :text="`${text.breedsPage.changeFilters} (${appliedFiltersCount})`"
+            :clickHandler="handleFiltersChange"
+          />
+        </div>
+
+        <div class="buttons-container__button-wrap">
+          <rounded-button
+            :text="text.breedsPage.resetFilters"
+            :clickHandler="handleFiltersReset"
+            backgroundColor="#C6C6C6"
+          />
+        </div>
+      </div>
     </div>
 
-    <div class="breeds-page__pets-list">
+    <div class="breeds-page__empty-search-result" v-if="!filteredPets.length">
+      <empty-search-placeholder />
+    </div>
+    <div class="breeds-page__pets-list" v-else>
       <ul ref="petsList">
-        <li v-for="pet in pets" :key="pet.id">
+        <li v-for="pet in filteredPets" :key="pet.id">
           <PetCard :petInfo="pet" />
         </li>
       </ul>
@@ -22,12 +43,15 @@
 <script>
 import SearchInput from '../Breeds/components/SearchInput.vue'
 import PetCard from '@/components/PetCard.vue'
+import RoundedButton from '@/components/Buttons/Rounded.vue'
+import EmptySearchPlaceholder from '@/components/EmptySearchPlaceholder.vue'
+import { getFilterResult } from './helpers/getFilterResult'
 import { text } from '@/mock/engText'
-import { PETS_LIST_LIMIT } from '@/constants'
+import { PETS_LIST_LIMIT, ROUTES } from '@/constants'
 
 export default {
   name: 'BreedsView',
-  components: { SearchInput, PetCard },
+  components: { SearchInput, PetCard, RoundedButton, EmptySearchPlaceholder },
   data() {
     return {
       text,
@@ -39,6 +63,20 @@ export default {
   computed: {
     storePets() {
       return this.$store.state.pets
+    },
+    appliedFiltersCount() {
+      return Object.entries(this.$route.query).filter(
+        (el) => el[0] === 'size' || JSON.parse(el[1])
+      ).length
+    },
+    filteredPets() {
+      if (this.$route.query.size) {
+        return this.pets.filter((pet) =>
+          getFilterResult(this.$route.query, pet)
+        )
+      }
+
+      return this.pets
     },
   },
   watch: {
@@ -81,11 +119,17 @@ export default {
     handleScroll() {
       const element = this.$refs.petsList
       if (
-        element.getBoundingClientRect().bottom < window.innerHeight &&
+        element?.getBoundingClientRect().bottom < window.innerHeight &&
         this.storePets.length === 10
       ) {
         this.startValue += PETS_LIST_LIMIT
       }
+    },
+    handleFiltersChange() {
+      this.$router.push({ name: ROUTES.filter, query: this.$route.query })
+    },
+    handleFiltersReset() {
+      this.$router.push({ query: null })
     },
   },
 }
@@ -98,6 +142,17 @@ export default {
 
     .header-container__text {
       margin-bottom: 20px;
+    }
+
+    .header-container__buttons-container {
+      display: flex;
+      margin-top: 25px;
+
+      .buttons-container__button-wrap {
+        &:last-of-type {
+          margin-left: 30px;
+        }
+      }
     }
   }
 

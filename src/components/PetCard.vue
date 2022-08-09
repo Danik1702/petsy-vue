@@ -75,7 +75,7 @@ export default {
           label: text.breedsPage.careTime,
         },
         {
-          value: `${maintenanceCost} ${text.unitsOfMeasurement.dollarsPerMonth}`,
+          value: `${maintenanceCost} ${text.unitsOfMeasurement.moneyPerMonth}`,
           label: text.breedsPage.costs,
         },
         {
