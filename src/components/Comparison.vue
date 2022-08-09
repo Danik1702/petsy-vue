@@ -1,28 +1,35 @@
 <template>
   <section class="comparison-container">
-    <div v-if="isPetAdded" class="comparison-container__added-to-comparison">
+    <div
+      v-if="isPetAddedToComparison"
+      class="comparison-container__added-to-comparison"
+    >
       <div class="added-to-comparison__item">
         <PointMarkIcon />
-        <p class="item__added-text text ml-10"></p>
+        <p class="item__added-text text ml-10">{{ text.common.added }}</p>
       </div>
 
       <div class="added-to-comparison__item">
-        <router-link :to="{ name: gotoLinkName }">
+        <router-link :to="{ name: ROUTES.comparison }">
           <LikeAndDislikeIcon color="#0A84FF" />
-          <p class="item__goto-text text ml-10"></p>
+          <p class="item__goto-text text ml-10">{{ text.common.goTo }}</p>
         </router-link>
       </div>
 
-      <div class="added-to-comparison__item" :click="removeCallback">
-        <button class="item__button button">
+      <div class="added-to-comparison__item">
+        <button
+          class="item__button button"
+          @click="handleRemovePetFromComparison"
+        >
           <CrossIcon />
-          <p class="button__remove-text text ml-10"></p>
+          <p class="button__remove-text text ml-10">{{ text.common.remove }}</p>
         </button>
       </div>
     </div>
     <button
       v-else
       class="comparison-container__add-to-comparison-button button"
+      @click="hanldeAddPetToComparison"
     >
       <p class="add-to-comparison-button__text text">
         {{ text.breedsPage.addToComparison }}
@@ -36,26 +43,37 @@ import CrossIcon from '@/assets/icons/Cross.vue'
 import PointMarkIcon from '@/assets/icons/PointMark.vue'
 import LikeAndDislikeIcon from '@/assets/icons/LikeAndDislike.vue'
 import { text } from '@/mock/engText'
+import { ROUTES } from '@/constants'
 
 export default {
   name: 'ComparisonComponent',
   components: { CrossIcon, PointMarkIcon, LikeAndDislikeIcon },
   props: {
-    isPetAdded: {
-      type: Boolean,
-      default: false,
-    },
-    gotoLinkName: {
-      type: String,
-    },
-    removeCallback: {
-      type: Function,
+    petInfo: {
+      type: Object,
+      required: true,
     },
   },
   data() {
     return {
       text,
+      ROUTES,
     }
+  },
+  computed: {
+    isPetAddedToComparison() {
+      return this.$store.state.petsToComparison
+        .map((pet) => pet.id)
+        .includes(this.petInfo.id)
+    },
+  },
+  methods: {
+    handleRemovePetFromComparison() {
+      this.$store.dispatch('removePetFromComparison', this.petInfo.id)
+    },
+    hanldeAddPetToComparison() {
+      this.$store.dispatch('addPetToComparison', this.petInfo)
+    },
   },
 }
 </script>
@@ -75,6 +93,7 @@ export default {
   border: none;
   outline: none;
   background: transparent;
+  cursor: pointer;
 }
 
 .comparison-container {
@@ -98,6 +117,12 @@ export default {
 
       .item__remove-text {
         color: #ff453a;
+      }
+
+      a,
+      button {
+        display: flex;
+        align-items: center;
       }
     }
   }

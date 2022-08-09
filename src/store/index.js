@@ -11,6 +11,7 @@ export default createStore({
     pets: [],
     pet: {},
     initialSet: {},
+    petsToComparison: [],
   },
   mutations: {
     GET_PETS(state, pets) {
@@ -21,6 +22,14 @@ export default createStore({
     },
     GET_INITIAL_SET(state, initialSet) {
       state.initialSet = initialSet
+    },
+    ADD_PET_TO_COMPARISON(state, pet) {
+      state.petsToComparison.push(pet)
+    },
+    REMOVE_PET_FROM_COMPARISON(state, petId) {
+      state.petsToComparison = state.petsToComparison.filter(
+        (pet) => pet.id !== petId
+      )
     },
   },
   actions: {
@@ -63,6 +72,12 @@ export default createStore({
       } catch (error) {
         console.log(error)
       }
+    },
+    addPetToComparison: ({ commit }, pet) => {
+      commit('ADD_PET_TO_COMPARISON', pet)
+    },
+    removePetFromComparison: ({ commit }, petId) => {
+      commit('REMOVE_PET_FROM_COMPARISON', petId)
     },
   },
   // getters: {},

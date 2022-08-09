@@ -29,11 +29,7 @@
       </section>
     </router-link>
     <div class="pet-card__comparison">
-      <ComparisonComponent
-        :isPetAdded="false"
-        :gotoLinkName="ROUTES.comparison"
-        :removeCallback="() => console.log('hi there')"
-      />
+      <ComparisonComponent :petInfo="petInfo" />
     </div>
   </div>
 </template>
@@ -83,6 +79,16 @@ export default {
           label: text.breedsPage.size,
         },
       ]
+    },
+    isPetAddedToComparison() {
+      return this.$store.state.petsToComparison
+        .map((pet) => pet.id)
+        .includes(this.petInfo.id)
+    },
+  },
+  methods: {
+    handleRemovePetFromComparison() {
+      this.$store.dispatch('removePetFromComparison', this.petInfo.id)
     },
   },
 }

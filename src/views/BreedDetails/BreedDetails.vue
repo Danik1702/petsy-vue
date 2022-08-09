@@ -7,11 +7,7 @@
           <img :src="petInfo.images[0]" alt="pet" />
         </div>
         <div class="pet-section__comparison-status">
-          <ComparisonComponent
-            :isPetAdded="false"
-            :gotoLinkName="ROUTES.comparison"
-            :removeCallback="() => console.log('hi there')"
-          />
+          <ComparisonComponent :petInfo="petInfo" />
         </div>
       </section>
 
