@@ -1,10 +1,6 @@
 <template>
   <section class="empty-search">
-    <img
-      src="@/assets/img/empty-search.jpeg"
-      class="empty-search__image"
-      alt="empty-search"
-    />
+    <img :src="imgPath" class="empty-search__image" alt="empty-search" />
     <h3 class="empty-search__text">{{ text }}</h3>
   </section>
 </template>
@@ -16,6 +12,10 @@ export default {
     text: {
       type: String,
       default: 'There is no results..',
+    },
+    imgPath: {
+      type: String,
+      default: require('@/assets/img/empty-search.jpeg'),
     },
   },
 }
@@ -37,6 +37,7 @@ export default {
     font-size: 26px;
     line-height: 30px;
     font-weight: normal;
+    color: #8e8e93;
   }
 }
 </style>

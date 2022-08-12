@@ -96,4 +96,12 @@ export const text = {
     idealForFamily: 'Ideal for a family',
     goodForFlat: 'Good for a flat',
   },
+  comparisonPage: {
+    comparison: 'Comparison',
+    characteristics: 'Characteristics',
+    specialty: 'Specialty',
+    emptyPageText:
+      'There is no pets to compare, select some on the Breeds page.',
+    add: 'Add',
+  },
 }
