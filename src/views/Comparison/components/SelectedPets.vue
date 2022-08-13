@@ -2,10 +2,8 @@
   <section class="selected-pets">
     <ul class="selected-pets__list">
       <li v-for="pet in petsToCompare" :key="pet.id" class="list__item">
-        <div class="item__image-wrap">
-          <img :src="pet.images[0]" alt="pet" />
-        </div>
-        <p class="item__breed-name">{{ pet.breed }}</p>
+        <pet-avatar :imageSrc="pet.images[0]" :breedName="pet.breed" />
+
         <div class="item__icon-wrap" @click="removePetHandler(pet.id)">
           <cross-icon />
         </div>
@@ -24,12 +22,13 @@
 <script>
 import CrossIcon from '@/assets/icons/Cross.vue'
 import PlusIcon from '@/assets/icons/Plus.vue'
+import PetAvatar from './PetAvatar.vue'
 import { text } from '@/mock/engText'
 import { ROUTES } from '@/constants'
 
 export default {
   name: 'SelectedPets',
-  components: { CrossIcon, PlusIcon },
+  components: { CrossIcon, PlusIcon, PetAvatar },
   props: {
     petsToCompare: {
       type: Array,
@@ -66,25 +65,6 @@ export default {
       position: relative;
       border-radius: 25px;
       background-color: #e1f6ff;
-
-      .item__image-wrap {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        overflow: hidden;
-        margin-right: 10px;
-
-        img {
-          max-width: 100%;
-          height: 30px;
-          object-fit: cover;
-        }
-      }
-
-      .item__breed-name {
-        font-size: 14px;
-        line-height: 16px;
-      }
 
       .item__icon-wrap {
         cursor: pointer;

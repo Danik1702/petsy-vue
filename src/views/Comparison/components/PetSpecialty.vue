@@ -1,16 +1,14 @@
 <template>
-  <div class="characteristic">
+  <div class="specialty">
     <slot></slot>
-    <characteristic-points :value="value" />
+
+    <p class="specialty__text">{{ value }}</p>
   </div>
 </template>
 
 <script>
-import CharacteristicPoints from './CharacteristicPoints.vue'
-
 export default {
-  name: 'PetCharacteristic',
-  components: { CharacteristicPoints },
+  name: 'PetSpecialty',
   props: {
     value: {
       type: Number,
@@ -21,9 +19,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.characteristic {
+.specialty {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  .specialty__text {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
 }
 </style>
