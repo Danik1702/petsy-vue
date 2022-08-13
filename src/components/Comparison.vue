@@ -21,7 +21,7 @@
           class="item__button button"
           @click="handleRemovePetFromComparison"
         >
-          <CrossIcon />
+          <CrossIcon color="#FF453A" />
           <p class="button__remove-text text ml-10">{{ text.common.remove }}</p>
         </button>
       </div>
@@ -115,7 +115,7 @@ export default {
         color: #0a84ff;
       }
 
-      .item__remove-text {
+      .button__remove-text {
         color: #ff453a;
       }
 
