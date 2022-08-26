@@ -160,4 +160,30 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .comparison-page {
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .comparison-page {
+    .comparison-page__comparison {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .comparison-section {
+        width: 100%;
+        max-width: 600px;
+
+        &:last-of-type {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
 </style>

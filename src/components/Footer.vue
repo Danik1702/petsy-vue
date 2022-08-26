@@ -98,4 +98,39 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 100px;
+
+    nav {
+      padding-top: 0;
+      padding-bottom: 0;
+
+      .footer__nav-list {
+        flex-direction: column;
+
+        li {
+          margin: 0 20px 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    .footer__copyright__text {
+      max-width: 150px;
+    }
+
+    nav {
+      .footer__nav-list {
+        li {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
 </style>

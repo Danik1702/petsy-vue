@@ -120,14 +120,14 @@ export default {
 
     .images-container__main-image {
       height: 238px;
-      width: 76.4%;
+      width: 65%;
       border-radius: 5px;
       overflow: hidden;
     }
 
     .images-container__minor-images-container {
       height: 238px;
-      width: 21.1%;
+      width: 33%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -164,6 +164,48 @@ export default {
 
   &:hover {
     transform: scale(105%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pet-card {
+    &:hover {
+      transform: scale(102%);
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pet-card {
+    .pet-card__header {
+      padding: 15px 0 15px 12px;
+    }
+
+    .pet-card__images-container {
+      margin-bottom: 10px;
+
+      .images-container__main-image {
+        height: 150px;
+        width: 60%;
+      }
+
+      .images-container__minor-images-container {
+        height: 150px;
+        width: 38%;
+
+        .minor-images-container__image {
+          height: 70px;
+        }
+      }
+    }
+
+    .pet-card__characteristics {
+      margin-left: 12px;
+    }
+
+    .pet-card__comparison {
+      padding: 10px 0 15px 12px;
+    }
   }
 }
 </style>

@@ -168,4 +168,53 @@ export default {
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .breeds-page {
+    padding: 0 15px;
+
+    .breeds-page__pets-list {
+      ul {
+        li {
+          width: 47.5%;
+        }
+
+        li:nth-of-type(odd) {
+          margin-right: 5%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .breeds-page {
+    .breeds-page__pets-list {
+      ul {
+        justify-content: center;
+
+        li {
+          width: auto;
+          margin-bottom: 30px;
+        }
+
+        li:nth-of-type(odd) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .breeds-page {
+    .breeds-page__pets-list {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
 </style>

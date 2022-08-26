@@ -62,7 +62,7 @@ export default {
 
 <style scoped lang="scss">
 .home-page {
-  padding: 52px 20px 91px;
+  padding: 0 20px;
   width: 100%;
   box-sizing: border-box;
 
@@ -88,7 +88,7 @@ export default {
 
   .home-page__content {
     section {
-      width: 40%;
+      width: 45%;
     }
 
     .left-section {
@@ -115,6 +115,40 @@ export default {
 
         img {
           width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-page {
+    .home-page__content {
+      display: block;
+
+      section {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-page {
+    .home-page__content {
+      display: block;
+
+      section {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+
+        svg {
+          max-width: 100%;
         }
       }
     }

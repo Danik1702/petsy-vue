@@ -40,4 +40,12 @@ export default {
     color: #8e8e93;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .empty-search {
+    .empty-search__text {
+      text-align: center;
+    }
+  }
+}
 </style>

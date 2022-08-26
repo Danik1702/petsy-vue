@@ -155,7 +155,7 @@ export default {
         border-radius: 8px;
         overflow: hidden;
 
-        .img {
+        img {
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -229,6 +229,107 @@ export default {
           line-height: 16px;
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .pet-info {
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    .pet-info__header {
+      flex-direction: column;
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      align-items: center;
+      padding: 15px 0;
+      margin-bottom: 40px;
+
+      .header__pet-section {
+        .pet-section__slider {
+          width: 100%;
+          max-width: 738px;
+          height: 350px;
+          margin: 16px 0 32px;
+          border-radius: 8px;
+          overflow: hidden;
+          box-sizing: border-box;
+        }
+      }
+
+      .header__characteristic {
+        margin-top: 30px;
+        max-width: 600px;
+      }
+    }
+
+    .pet-info__observation {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+
+      .observation-container {
+        ul {
+          flex-wrap: wrap;
+
+          li {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .pet-info__additional-info {
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pet-info {
+    padding: 0;
+    .pet-info__header {
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0;
+
+      .header__pet-section {
+        width: 100%;
+
+        .pet-section__header {
+          margin-left: 20px;
+        }
+
+        .pet-section__slider {
+          height: 350px;
+          border-radius: 0;
+
+          @media only screen and (max-width: 460px) {
+            height: 250px;
+          }
+        }
+      }
+
+      .header__characteristic {
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+      }
+    }
+
+    .pet-info__observation {
+      padding: 0 15px;
+      box-sizing: border-box;
+    }
+
+    .pet-info__additional-info {
+      padding: 0 15px;
+      box-sizing: border-box;
     }
   }
 }

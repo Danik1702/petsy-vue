@@ -12,6 +12,7 @@ export default createStore({
     pet: {},
     initialSet: {},
     petsToComparison: [],
+    isMobileMenuOpened: false,
   },
   mutations: {
     GET_PETS(state, pets) {
@@ -30,6 +31,10 @@ export default createStore({
       state.petsToComparison = state.petsToComparison.filter(
         (pet) => pet.id !== petId
       )
+    },
+    SET_MOBILE_MENU_VISIBILITY(state, value) {
+      state.isMobileMenuOpened =
+        typeof value === 'undefined' ? !state.isMobileMenuOpened : value
     },
   },
   actions: {
@@ -78,6 +83,9 @@ export default createStore({
     },
     removePetFromComparison: ({ commit }, petId) => {
       commit('REMOVE_PET_FROM_COMPARISON', petId)
+    },
+    setMobileMenuVisibility: ({ commit }) => {
+      commit('SET_MOBILE_MENU_VISIBILITY')
     },
   },
   // getters: {},

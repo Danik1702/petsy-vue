@@ -153,6 +153,7 @@ export default {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
+  box-sizing: border-box;
 
   .filter-page__header-section {
     margin-bottom: 25px;
@@ -179,6 +180,12 @@ export default {
     .submit-section__button-wrap:first-of-type {
       margin-right: 20px;
     }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .filter-page {
+    padding: 0 15px;
   }
 }
 </style>
