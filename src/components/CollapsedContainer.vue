@@ -7,7 +7,10 @@
       <h2 class="header__text">{{ headerText }}</h2>
     </div>
 
-    <div :class="['collapsed-container__content', isHidden ? '' : 'visible']">
+    <div
+      :class="['collapsed-container__content', isHidden ? '' : 'visible']"
+      ref="collapsedContainer"
+    >
       <slot></slot>
     </div>
   </div>
@@ -33,6 +36,17 @@ export default {
   methods: {
     switchVisibility() {
       this.isHidden = !this.isHidden
+    },
+  },
+  watch: {
+    isHidden() {
+      const collapsedElem = this.$refs.collapsedContainer
+
+      if (this.isHidden) {
+        collapsedElem.style.maxHeight = 0
+      } else {
+        collapsedElem.style.maxHeight = `${collapsedElem.scrollHeight}px`
+      }
     },
   },
 }
@@ -63,17 +77,13 @@ export default {
   }
 
   .collapsed-container__content {
-    transition-duration: 0.3s;
-    transform: translateY(-30px);
     overflow: hidden;
-    opacity: 0;
     max-height: 0;
+    transition: max-height 0.3s ease-out;
   }
 
   .visible {
-    transform: translateY(0);
-    opacity: 1;
-    max-height: 100%;
+    max-height: 100px;
   }
 }
 </style>
