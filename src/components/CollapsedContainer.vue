@@ -64,16 +64,16 @@ export default {
 
   .collapsed-container__content {
     transition-duration: 0.3s;
-    transform: translateY(-50px);
+    transform: translateY(-30px);
     overflow: hidden;
     opacity: 0;
-    height: 0;
+    max-height: 0;
   }
 
   .visible {
     transform: translateY(0);
     opacity: 1;
-    height: auto;
+    max-height: 100%;
   }
 }
 </style>

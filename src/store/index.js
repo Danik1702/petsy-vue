@@ -1,18 +1,13 @@
 import { createStore } from 'vuex'
-import {
-  getPetsList,
-  getPetById,
-  getPetByBreed,
-  getInitialSet,
-} from '@/services/PetsService'
+import { getPetsList, getPetById, getPetByBreed } from '@/services/PetsService'
 
 export default createStore({
   state: {
     pets: [],
     pet: {},
-    initialSet: {},
     petsToComparison: [],
     isMobileMenuOpened: false,
+    breedForCheckCare: '',
   },
   mutations: {
     GET_PETS(state, pets) {
@@ -20,9 +15,6 @@ export default createStore({
     },
     GET_PET(state, pet) {
       state.pet = pet
-    },
-    GET_INITIAL_SET(state, initialSet) {
-      state.initialSet = initialSet
     },
     ADD_PET_TO_COMPARISON(state, pet) {
       state.petsToComparison.push(pet)
@@ -35,6 +27,9 @@ export default createStore({
     SET_MOBILE_MENU_VISIBILITY(state, value) {
       state.isMobileMenuOpened =
         typeof value === 'undefined' ? !state.isMobileMenuOpened : value
+    },
+    SET_BREED_FOR_CARE_CHECK(state, breed) {
+      state.breedForCheckCare = breed
     },
   },
   actions: {
@@ -70,14 +65,6 @@ export default createStore({
         console.log(error)
       }
     },
-    getInitialSet: async ({ commit }) => {
-      try {
-        const response = await getInitialSet()
-        commit('GET_INITIAL_SET', response.data)
-      } catch (error) {
-        console.log(error)
-      }
-    },
     addPetToComparison: ({ commit }, pet) => {
       commit('ADD_PET_TO_COMPARISON', pet)
     },
@@ -86,6 +73,9 @@ export default createStore({
     },
     setMobileMenuVisibility: ({ commit }) => {
       commit('SET_MOBILE_MENU_VISIBILITY')
+    },
+    setBreedForCareCheck: ({ commit }, breed) => {
+      commit('SET_BREED_FOR_CARE_CHECK', breed)
     },
   },
   // getters: {},

@@ -1372,25 +1372,5 @@
         "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
       ]
     }
-  ],
-  "initialSet": {
-    "buyForFirstPeriod": {
-      "dogSunbed": "Length fron 25sm",
-      "bowls": "2 pieces - water/feed",
-      "puppyFood": "1kg",
-      "tray": "10 pieces",
-      "toys": "ball, bone",
-      "delicacies": "any"
-    },
-    "fromBreeder": {
-      "documents": ["pasport", "medical book"],
-      "information": ["vaccination", "parents health"],
-      "other": ["feed for the first few days"]
-    },
-    "additionalInfo": {
-      "vaccination": "Each dog should receive 3 vaccinations: at the age of about 2 months, 3 weeks after the first vaccination and one year after the second vaccination Vaccination information must be recorded in a medical record.",
-      "feeding": "For the first few days, it is recommended to feed the dog the food given to you by the breeder, so that the dog can adapt to a new home without additional stress. When choosing a new food, you need to pay attention to whether it is suitable for puppies. The weight of the daily portion is always indicated on the package and depends on the age, weight and activity of your pet.",
-      "paddock": "It is necessary to start walking the dog 10 days after the second vaccination. All the time until then, your dog is quarantined and goes to the toilet on special diapers / trays."
-    }
-  }
+  ]
 }

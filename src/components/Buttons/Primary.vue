@@ -4,6 +4,7 @@
     :style="{ backgroundColor }"
     @click="clickHandler"
     :type="type"
+    :disabled="disabled"
   >
     <p class="primary-button__text" :style="{ color }">{{ text }}</p>
   </button>
@@ -19,7 +20,6 @@ export default {
     },
     clickHandler: {
       type: Function,
-      required: true,
     },
     backgroundColor: {
       type: [String, Boolean],
@@ -32,6 +32,10 @@ export default {
     type: {
       type: String,
       default: 'button',
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
     },
   },
 }

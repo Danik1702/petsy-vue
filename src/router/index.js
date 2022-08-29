@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/Home/Home.vue'
 import BreadsView from '../views/Breeds/Breads.vue'
-import CareCheckView from '../views/CareCheck.vue'
+import CareCheckView from '../views/CareCheck/CareCheck.vue'
 import ComparisonView from '../views/Comparison/Comparison.vue'
 import FilterView from '../views/Filter/Filter.vue'
 import BreedDetailsView from '../views/BreedDetails/BreedDetails.vue'

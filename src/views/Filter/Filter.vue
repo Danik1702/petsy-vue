@@ -86,8 +86,8 @@
 </template>
 
 <script>
-import Slider from '@/components/Slider.vue'
-import Checkbox from '@/components/Checkbox.vue'
+import Slider from '@/components/Input/Slider.vue'
+import Checkbox from '@/components/Input/Checkbox.vue'
 import PrimaryButton from '@/components/Buttons/Primary.vue'
 import PetSize from './components/PetSize.vue'
 import { text } from '@/mock/engText'
