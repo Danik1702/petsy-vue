@@ -4,7 +4,7 @@
       <section class="header__pet-section">
         <h1 class="pet-section__header">{{ petInfo.breed }}</h1>
         <div class="pet-section__slider">
-          <img :src="petInfo.images[0]" alt="pet" />
+          <carousel :items="petInfo.images" />
         </div>
         <div class="pet-section__comparison-status">
           <ComparisonComponent :petInfo="petInfo" />
@@ -83,6 +83,7 @@ import ComparisonComponent from '@/components/Comparison.vue'
 import PetCharacteristic from '@/components/PetCharacteristic.vue'
 import PetObservation from '@/components/PetObservation.vue'
 import CollapsedContainer from '@/components/CollapsedContainer.vue'
+import Carousel from '@/components/Carousel.vue'
 import PeculiaritiesOfCare from './components/PeculiaritiesOfCare.vue'
 import { ROUTES } from '@/constants'
 import { text } from '@/mock/engText'
@@ -96,6 +97,7 @@ export default {
     PetObservation,
     CollapsedContainer,
     PeculiaritiesOfCare,
+    Carousel,
   },
   data() {
     return {
@@ -140,6 +142,9 @@ export default {
     justify-content: space-between;
 
     .header__pet-section {
+      width: 100%;
+      max-width: 460px;
+
       .pet-section__header {
         font-size: 28px;
         line-height: 33px;
@@ -155,11 +160,11 @@ export default {
         border-radius: 8px;
         overflow: hidden;
 
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
+        // img {
+        //   width: 100%;
+        //   height: 100%;
+        //   object-fit: cover;
+        // }
       }
 
       .pet-section__comparison-status {
@@ -248,6 +253,8 @@ export default {
       margin-bottom: 40px;
 
       .header__pet-section {
+        max-width: 738px;
+
         .pet-section__slider {
           width: 100%;
           max-width: 738px;
