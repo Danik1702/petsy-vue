@@ -51,664 +51,607 @@
     },
     {
       "id": 1,
-      "breed": "Pug1",
+      "breed": "Saint Bernard",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "popularity": 2,
+        "training": 4,
+        "size": 5,
+        "mind": 4,
+        "security": 5,
+        "relationshipWithChildren": 4,
+        "agility": 3,
+        "difficulty": 4
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Switzerland",
+        "lifetime": "8 - 10",
+        "height": "65 - 85",
+        "weight": "60 - 80",
+        "cost": "1000 - 1300",
+        "maintenanceCost": "120",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "Loyal and obedient, the St. Bernard will be a great friend for the whole family: the dog gets along great with both adults and small children. The name of the breed comes from the monastery of St. Bernard in Switzerland, next to which these dogs lived. St. Bernards were used to rescue people who were covered by avalanches. In addition, the pupils felt the approach of this natural disaster, saving the lives of travelers.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Hip and knee dysplasia",
+        "Dislocation of the patella",
+        "Congenital deafness",
+        "Epilepsy"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "60-80",
+        "numberOfWalks": "3-4",
+        "eatTimes": "4-5",
+        "portionWeight": "500-700",
+        "breedCare": "A balanced diet is the key to the correct and healthy growth of a pet, so it is necessary to prepare a diet taking into account all the needs of the dog. In high-quality foods of the holistic or super-premium classes, a complex of useful nutrients and vitamins, developed by professionals, is already present. For a St. Bernard, it is better to buy products suitable for dogs of large and giant breeds."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/iblock/4ae/4ae9f1a12c924a063d38ff4d41e28f4a.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/8b7/512_342_2/8b7ea2df8909352996f560ffa3c7731a.jpg",
+        "https://lapkins.ru/upload/resize_cache/uf/2c8/293_293_2/2c8190541313a4cd8fc07177e2b881a9.jpg"
       ]
     },
     {
       "id": 2,
-      "breed": "Pug2",
+      "breed": "Akita Inu",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
+        "popularity": 3,
+        "training": 4,
+        "size": 5,
         "mind": 3,
-        "security": 2,
+        "security": 5,
         "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "agility": 3,
+        "difficulty": 5
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
+        "country": "Japan",
+        "lifetime": "10 - 12",
+        "height": "64 - 70",
+        "weight": "23 - 39",
+        "cost": "800 - 1200",
+        "maintenanceCost": "150",
         "careTime": "1"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "Akita Inu is one of the oldest dog breeds on Earth, bred in the northern regions of Japan. This is a proud, strong and devoted pet..",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Hip dysplasia",
+        "Bloating",
+        "Glaucoma",
+        "Cataract",
+        "Pseudoparalytic myasthenia gravis (weakness of all muscles of the body)",
+        "Retinal atrophy"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
+        "weight": "23-39",
+        "numberOfWalks": "3-4",
+        "eatTimes": "4-5",
+        "portionWeight": "400-600",
         "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/iblock/c06/c06d4716c1620542d39f3e480950e016.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/7a7/412_2150_1/7a7fdd9c0eac7bed03957dea0294ef44.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/89f/380_264_2/89f49344b1be5936799f43ce1fa0f882.jpg"
       ]
     },
     {
       "id": 3,
-      "breed": "Pug3",
+      "breed": "American bulldog",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "popularity": 3,
+        "training": 4,
+        "size": 5,
+        "mind": 4,
+        "security": 5,
+        "relationshipWithChildren": 3,
+        "agility": 3,
+        "difficulty": 4
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "USA",
+        "lifetime": "11 - 12",
+        "height": "55 - 70",
+        "weight": "32 - 54",
+        "cost": "300 - 600",
+        "maintenanceCost": "100",
+        "careTime": "1.5"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The American Bulldog is an explosive mixture of temperament and puppy devotion. With such a pet, you always feel safe.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Eye problems (strabismus, torsion of the eyelid, cataracts)",
+        "Hip and elbow dysplasia",
+        "Skin diseases and allergies",
+        "Heart failure",
+        "Congenital deafness"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "32-54",
+        "numberOfWalks": "3-4",
+        "eatTimes": "4-5",
+        "portionWeight": "400-600",
+        "breedCare": "The American Bulldog breed is completely unpretentious in care. These dogs are forbidden to carry out water procedures more than two or three times a year. It is enough to wipe the muzzle as it gets dirty - and your pet will always look neat and clean. For these purposes, ear sticks and cotton pads are suitable."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/4b3/380_264_2/4b3017eeac18446469e86665e3501e12.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/5d7/380_264_2/5d71071b8e6b24a47e5a2980f0c85783.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/dd4/380_264_2/dd4948573b019302903bce816e638a08.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/5d5/380_264_2/5d539774a70e53f7205a04a3f4268c3b.jpg"
       ]
     },
     {
       "id": 4,
-      "breed": "Pug4",
+      "breed": "American Staffordshire Terrier",
       "characteristics": {
         "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "training": 5,
+        "size": 4,
+        "mind": 5,
+        "security": 5,
+        "relationshipWithChildren": 4,
+        "agility": 5,
+        "difficulty": 3
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "USA",
+        "lifetime": "10 - 12",
+        "height": "46 - 48",
+        "weight": "25 - 30",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "75",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The American Staffordshire Terrier is a warrior without fear or reproach, a strong, intelligent and loyal dog, able to defend you without hesitation and fight to the end.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Eye problems (strabismus, torsion of the eyelid, cataracts)",
+        "Hip and elbow dysplasia",
+        "Skin diseases and allergies",
+        "Heart failure",
+        "Congenital deafness"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "25-30",
+        "numberOfWalks": "2-3",
+        "eatTimes": "3-4",
+        "portionWeight": "300-500",
+        "breedCare": "Amstaff is an unpretentious dog, and following simple rules will avoid many problems or at least minimize them."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/c8f/380_264_2/c8f1dbe7a0174c2bbe12ecd60b32b309.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/345/380_264_2/3456b10a8b62a2f56f9b21e7078d8f1e.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/481/380_264_2/4818440f8cd7b1c3600083cbc08fbe45.jpg"
       ]
     },
     {
       "id": 5,
-      "breed": "Pug5",
+      "breed": "White Swiss Shepherd",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "popularity": 3,
+        "training": 5,
+        "size": 5,
+        "mind": 4,
+        "security": 5,
         "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "agility": 3,
+        "difficulty": 5
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Switzerland",
+        "lifetime": "13 - 15",
+        "height": "58 - 66",
+        "weight": "30 - 40",
+        "cost": "1000 - 1500",
+        "maintenanceCost": "130",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The White Swiss Shepherd is the epitome of beauty and friendliness. Gentle, attentive, understanding, with a wonderful disposition, she is an ideal companion and true friend.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Congenital heart failure",
+        "Intestinal intussusception is one of the forms of intestinal obstruction",
+        "Paresis of the pelvic limbs, manifested in the limitation of motor abilit",
+        "Eosinophilic panostitis - colloquially, growth disease, expressed in lameness and characteristic of animals 5-12 months old"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "30-40",
+        "numberOfWalks": "3-4",
+        "eatTimes": "4-5",
+        "portionWeight": "300-500",
+        "breedCare": "Caring for a White Swiss Shepherd is not difficult. Even a dog's thick coat, no matter how long, can be kept in order without too much effort. She will require special care during the molting period. At this time, the dog should be combed at least twice a week, using sprays specially designed for hair removal. Short-haired animals are combed out with a fine comb. It is advisable to pre-comb out a long-haired pet with a sparse comb, then, if necessary, untangle or cut out the tangles, after combing with a frequent comb, in the final - treat with a natural bristle massage brush. At the end of the procedure, it is advisable to run wet hands over the coat several times to remove the remaining dead or combed out hairs."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/iblock/0dd/0ddd99f475643b8fe774fb13915a9154.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/247/380_264_2/2470bf35e3e3eda284a32c36d9f8dd5b.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/556/380_264_2/55695ae8360da6808b2db1c92d8eefe4.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/40d/380_264_2/40dfd96fef8df837d9daa0706146bfed.jpg"
       ]
     },
     {
       "id": 6,
-      "breed": "Pug6",
+      "breed": "Beagle",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
+        "popularity": 5,
+        "training": 3,
+        "size": 3,
         "mind": 3,
-        "security": 2,
+        "security": 3,
         "relationshipWithChildren": 5,
-        "agility": 1,
+        "agility": 4,
         "difficulty": 2
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Great Britain",
+        "lifetime": "11 - 15",
+        "height": "33 - 40",
+        "weight": "8 - 18",
+        "cost": "200 - 500",
+        "maintenanceCost": "60",
+        "careTime": "1.5"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Beagle belongs to the hound breeds of dogs. This cheerful kind man will become a great friend: loving, patient and, importantly, unpretentious in care.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Disease of the intervertebral discs",
+        "Deformation of the forelimbs",
+        "Dysfunction of the thyroid gland",
+        "Epilepsy",
+        "Diabetes"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
+        "weight": "8-18",
+        "numberOfWalks": "2-3",
         "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "portionWeight": "200-400",
+        "breedCare": "Beagles require minimal care and are very unpretentious to the conditions of detention. The dog's short coat needs to be brushed once or twice a week. For this, a brush or a rubber glove is usually used. During the molting of the animal, the procedure is carried out more often. This time, the 'tool' is a furminator comb, which will easily remove dead hairs and make the dog's appearance more neat."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/12d/380_264_2/12dae36ad745c0427a3e64363a441778.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/081/380_264_2/0812600a45bc4bd79ce3a9a06dc62e59.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/dce/380_264_2/dce30ac9dead7dec929fce53975f6916.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/d05/380_264_2/d0557234be674da12bb812808f280358.jpg"
       ]
     },
     {
       "id": 7,
-      "breed": "Pug7",
+      "breed": "Boxer",
       "characteristics": {
         "popularity": 4,
-        "training": 2,
-        "size": 2,
+        "training": 4,
+        "size": 4,
         "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "security": 5,
+        "relationshipWithChildren": 2,
+        "agility": 4,
+        "difficulty": 5
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Germany",
+        "lifetime": "11 - 12",
+        "height": "57 - 63",
+        "weight": "25 - 30",
+        "cost": "200 - 500",
+        "maintenanceCost": "90",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The German Boxer, or simply Boxer, is a large, stocky, smooth-haired breed. Bred in Germany, it has gained wide popularity due to its excellent protective qualities. The boxer becomes a wonderful companion and true friend for his master.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Disease of the intervertebral discs",
+        "Epilepsy",
+        "Diabetes"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "25-30",
+        "numberOfWalks": "3-4",
+        "eatTimes": "3-4",
+        "portionWeight": "400-600",
+        "breedCare": "Wherever you settle your pet, in an apartment or a country house, he will perfectly take root everywhere. He will be comfortable even in an ordinary kennel, but on condition that another dog shares this “living space” with him. Boxer In general, German boxers are quite unpretentious in care, but they do not tolerate cold and high humidity. Since the boxer's coat is short, unlike long-haired breeds, it does not get tangled or tangled, and therefore does not need frequent combing."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/8cb/380_264_2/8cbabba0e0bcb791249baa66665b16fc.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/c1f/380_264_2/c1fc0548d9221488b4585a8b14767029.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/dd4/380_264_2/dd4f685780b16930950d9cc5b045dfb6.jpg"
       ]
     },
     {
       "id": 8,
-      "breed": "Pug8",
+      "breed": "Bernese Mountain Dog",
       "characteristics": {
         "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "training": 5,
+        "size": 5,
+        "mind": 4,
+        "security": 5,
         "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "agility": 2,
+        "difficulty": 4
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Switzerland",
+        "lifetime": "8 - 10",
+        "height": "64 - 70",
+        "weight": "39 - 50",
+        "cost": "1000 - 1500",
+        "maintenanceCost": "120",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Bernese Mountain Dog (Bernese Shepherd) is an affectionate and charming giant with the most good-natured “smile” in the world. Representatives of this breed are ideal companions with an innate sense of tact and an unusually peaceful character.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Overheating (heat stroke)",
+        "Umbilical hernia",
+        "Weeping eczema",
+        "Problems with the organs of vision (cataract, entropion, retinal atrophy)",
+        "Dysplasia of the elbow and hip joints (not a sentence, and with well-chosen treatment, it may not cause discomfort to the pet) shoulder osteochondrosis"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
+        "weight": "39-50",
+        "numberOfWalks": "3-4",
         "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "portionWeight": "500-800",
+        "breedCare": "The home for the Bernese Mountain Dog can be either a village cottage or a city apartment. For individuals guarding a private house, it is more expedient to build housing in the yard. Usually, in it, shepherd dogs are fenced off with an aviary in which a booth is installed. If the pet will live in the apartment, it is best to give him a corner on the balcony (provided that it is glazed). So that the animal does not freeze in the off-season, you can equip a small kennel on the balcony."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/671/380_264_2/67170899fb672a401fa70a1a62601e4b.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/d8c/380_264_2/d8caddcdd79b6d5e6b828d439772e460.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/60f/380_264_2/60f890fd8053fb7f997803a1761f795c.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/83a/380_264_2/83a3d1c7915c8921efe3d586848b5984.jpg"
       ]
     },
     {
       "id": 9,
-      "breed": "Pug9",
+      "breed": "Bull terrier",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
+        "popularity": 2,
+        "training": 5,
+        "size": 4,
         "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "security": 5,
+        "relationshipWithChildren": 2,
+        "agility": 5,
+        "difficulty": 5
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Great Britain",
+        "lifetime": "11 - 14",
+        "height": "53 - 56",
+        "weight": "23 - 32",
+        "cost": "500 - 800",
+        "maintenanceCost": "85",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Bull Terrier is a hereditary English aristocrat in a snow-white 'suit' with a needle. His menacing appearance is only a mask, under which the sociable nature is hidden.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Deafness",
+        "Epilepsy",
+        "Skin rash",
+        "Joint dysplasia",
+        "Dislocation of the kneecaps and elbows",
+        "Eversion or inversion of the eyelids"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
+        "weight": "23-32",
+        "numberOfWalks": "2-3",
         "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "portionWeight": "500-700",
+        "breedCare": "The Bull Terrier belongs to the breeds of dogs that are very unpretentious in care. The short coat of the animal needs weekly combing (no more than three times). To remove hairs, use a brush with stiff bristles, but for the period of molting, it is better to get a special glove for grooming. It will greatly facilitate the care of your pet's coat. Representatives of the breed molt twice a year: in autumn and spring. Bathing a bull terrier. Forget about regular water treatments: bull terriers don't need them. Bathe your pet as it gets dirty with a mild dog shampoo. However, rubbing the bull terrier's body with a sponge or towel is enough. Do you want to give your hair a healthy shine? Arm yourself with suede and walk it through the hairs. The effect will not be long in coming!"
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
-      ]
-    },
-    {
-      "id": 10,
-      "breed": "Puga",
-      "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
-      },
-      "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
-      },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
-      "careFeatures": {
-        "combingWool": "1 - 2 times per week",
-        "bathing": "1 - 2 times per week",
-        "cleanTheEars": false
-      },
-      "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
-      ],
-      "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
-      },
-      "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/91d/380_264_2/91d49fe3557a00e33a1126ef4cbe3eda.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/5c0/380_264_2/5c026212a36c0e94c5dce6eb13b428fb.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/48e/380_264_2/48e06fa0bc68a7531d6f6d0761879e91.jpg"
       ]
     },
     {
       "id": 11,
-      "breed": "Pugb",
+      "breed": "Jack Russell Terrier",
       "characteristics": {
         "popularity": 4,
         "training": 2,
         "size": 2,
-        "mind": 3,
-        "security": 2,
+        "mind": 4,
+        "security": 1,
         "relationshipWithChildren": 5,
         "agility": 1,
         "difficulty": 2
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Great Britain",
+        "lifetime": "13 - 16",
+        "height": "25 - 30",
+        "weight": "5 - 7",
+        "cost": "100 - 300",
+        "maintenanceCost": "50",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Jack Russell Terrier is a recognizable and popular dog breed. This is a pet with which you will not be bored for a minute.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Osteochondropathy of the femoral head (Perthes disease) manifests itself in puppies 4-10 months old in the form of constant or periodic lameness",
+        "Dislocation of the kneecap",
+        "Deafness",
+        "Heart diseases",
+        "Epilepsy",
+        "Hereditary defects in the development of the sclera, choroid, retina, optic nerve and retinal vessels - the so-called collie eye anomaly"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
+        "weight": "5-7",
+        "numberOfWalks": "2-3",
         "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "portionWeight": "200-300",
+        "breedCare": "Despite the compact size of Jack Russells, keeping them in a city apartment is fraught with certain difficulties. Dogs are too active for a quarter of an hour walk in the morning and evening to satisfy their need for exercise. With a lack of training, they will spend excess energy on destructive pranks. As a result, furniture, appliances, floors, shoes and clothes of the owners may suffer. It should be understood that for the Jack Russell Terrier this is not an act of revenge or a conscious sabotage, but simply an attempt to occupy oneself with something in the absence of the owner, therefore, before leaving for a few hours, you need to find time for a long and meaningful walk."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/4d5/380_264_2/4d51eec3938e1ac27a487c15fb03f26f.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/88f/380_264_2/88f70fc1bdc63559e34549ec11fdef39.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/ba8/380_264_2/ba808be53f9c87df41d74878f560b782.jpg"
       ]
     },
     {
       "id": 12,
-      "breed": "Pugc",
+      "breed": "Doberman",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "popularity": 5,
+        "training": 5,
+        "size": 5,
+        "mind": 5,
+        "security": 5,
+        "relationshipWithChildren": 4,
+        "agility": 4,
+        "difficulty": 4
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Germany",
+        "lifetime": "10 - 14",
+        "height": "68 - 72",
+        "weight": "40 - 45",
+        "cost": "1000 - 1200",
+        "maintenanceCost": "100",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "Doberman is a dog that combines high intelligence and devotion, fearlessness and vigilance, strength and grace in the most amazing way.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Osteochondropathy of the femoral head (Perthes disease) manifests itself in puppies 4-10 months old in the form of constant or periodic lameness",
+        "Dislocation of the kneecap",
+        "Deafness",
+        "Heart diseases",
+        "Epilepsy",
+        "Hereditary defects in the development of the sclera, choroid, retina, optic nerve and retinal vessels - the so-called collie eye anomaly"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "40-45",
+        "numberOfWalks": "3-4",
+        "eatTimes": "3-4",
+        "portionWeight": "400-600",
+        "breedCare": "Doberman, as a short-haired breed, is perfect for keeping in a city apartment. If you live in your own house, then you can also settle the animal in a specially equipped aviary, although you still need to let the dog into the house from time to time. The enclosure itself will be correctly placed in the shade, since Dobermans do not tolerate heat very well. The floor in the aviary should be made of boards laid on logs 10-20 cm thick. Although the technical capabilities make it possible to organize the heating of the aviary with the help of narrowly focused infrared heaters, it is better to keep the dog in the house during the cold season."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/0e4/380_264_2/0e40a826eca25cffb552e672ebddce8c.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/779/380_264_2/779f07bc968c9c2469120cb1fc4a4314.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/a80/380_264_2/a80b7eb653da0be4223e2b9206baae85.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/848/380_264_2/848e4f5e58ecd7a44bc1dde94b0e7ada.jpg"
       ]
     },
     {
       "id": 13,
-      "breed": "Pugd",
+      "breed": "Golden retriever",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "popularity": 5,
+        "training": 5,
+        "size": 4,
+        "mind": 5,
+        "security": 4,
         "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "agility": 2,
+        "difficulty": 3
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "Great Britain",
+        "lifetime": "12 - 13",
+        "height": "56 - 61",
+        "weight": "26 - 41",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "100",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Golden Retriever is an excellent companion and a hunter's best friend. Good-natured, calm, superbly fetches shot game.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Dislocation of the kneecap",
+        "Deafness",
+        "Heart diseases",
+        "Epilepsy"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "26-41",
+        "numberOfWalks": "2-3",
+        "eatTimes": "3-4",
+        "portionWeight": "400-600",
+        "breedCare": "Despite the fact that the main specialization of golden retrievers has always been hunting, it is absolutely not necessary for today's owners of these shaggy 'servants' to take up a gun. Tiring races through forests and swamps can be easily replaced by long walks in parks and meadows. It's great if you take your dog to a country house, away from the freeway, where he can run around as much as he can. Just do not try to turn your pet into a mongrel and put him in a booth: the retriever will not appreciate your impulse and become discouraged - so take the dog into the house and do not deprive him of his own company."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/dec/380_264_2/dec0e012466a9a022df014ee46334d6e.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/3e7/380_264_2/3e78dde4d03424af12163c35a54f6d1a.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/394/380_264_2/394f4949a166609f9f1624d9a7a1bc0c.jpg"
       ]
     },
     {
       "id": 14,
-      "breed": "Puge",
+      "breed": "Yorkshire Terrier",
       "characteristics": {
-        "popularity": 4,
+        "popularity": 5,
         "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "size": 1,
+        "mind": 2,
+        "security": 1,
         "relationshipWithChildren": 5,
         "agility": 1,
-        "difficulty": 2
+        "difficulty": 3
       },
       "observation": {
-        "country": "China",
+        "country": "England",
         "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "height": "15 - 17",
+        "weight": "2 - 3",
+        "cost": "500 - 700",
+        "maintenanceCost": "40",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Yorkshire Terrier is one of the most popular pet dog breeds in the world. The Yorkie is charming in appearance, energetic, affectionate and makes an excellent companion.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
@@ -716,660 +659,441 @@
       },
       "possibleProblems": [
         "Skin disease caused by a small mite",
-        "Pug encephalitis",
         "Nerve degeneration",
         "Corneal ulcers",
         "Keratoconjunctivitis",
         "Pigmentary keratitis"
       ],
       "careNorms": {
-        "weight": "6-8",
+        "weight": "2-3",
         "numberOfWalks": "1-2",
         "eatTimes": "2-3",
         "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "breedCare": "As soon as you bring a Yorkshire terrier puppy into the house, immediately arrange places for him to eat and toilet. They must be constant, otherwise the dog will start to get nervous. Choose a warm area for him in the room, and place a small playpen with a bedding and an impromptu cozy bed there."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/683/380_264_2/683aba502251ddc76f8089e2e5e71ac1.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/ee7/380_264_2/ee7d20cd548772068c00984dcac70872.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/a3c/380_264_2/a3c646470589f749576bf53b867cab72.jpg"
       ]
     },
     {
       "id": 15,
-      "breed": "Pugf",
+      "breed": "Cane Corso",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "popularity": 2,
+        "training": 4,
+        "size": 5,
+        "mind": 4,
+        "security": 5,
+        "relationshipWithChildren": 3,
+        "agility": 4,
+        "difficulty": 3
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "Italy",
+        "lifetime": "9 - 11",
+        "height": "64 - 68",
+        "weight": "45 - 50",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "90",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "Cane Corso is a large breed, a descendant of the fighting dogs of Ancient Rome. For centuries, these smart and obedient dogs have served their masters, guarding their homes, helping in the hunt and in the field.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Overheating (heat stroke)",
+        "Umbilical hernia",
+        "Weeping eczema",
+        "Problems with the organs of vision (cataract, entropion, retinal atrophy)",
+        "Dysplasia of the elbow and hip joints (not a sentence, and with well-chosen treatment, it may not cause discomfort to the pet) shoulder osteochondrosis"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "45-50",
+        "numberOfWalks": "3-4",
+        "eatTimes": "3-4",
+        "portionWeight": "500-800",
+        "breedCare": "It is believed that even small dogs, not to mention more or less large ones, can create inconvenience for their owners in an ordinary city apartment. Cane Corso completely refute this stereotype. Despite the fact that they are not small dogs, they do not need a large space due to their inactivity. If you live in a private house, this does not mean at all that you can put your pet in a booth and put it on a chain. By their nature, the 'Italians' are too freedom-loving and need to be constantly near the owner. In addition, the dog's light undercoat is not able to warm it in severe frosts, so there is still no way to be a Cane Corso 'yard dweller'."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/ac3/380_264_2/ac3bbce8e9b668865bfcb470dce4b248.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/82d/380_264_2/82d469bcf8f5190f1e1be759ebc8d649.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/381/380_264_2/3816e2c7a25aca4173440dc694681805.jpg"
       ]
     },
     {
       "id": 16,
-      "breed": "Pugh",
+      "breed": "Greyhound",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
+        "popularity": 2,
+        "training": 3,
         "size": 2,
-        "mind": 3,
+        "mind": 4,
         "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "relationshipWithChildren": 4,
+        "agility": 2,
+        "difficulty": 3
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "Italy",
+        "lifetime": "13 - 14",
+        "height": "32 - 38",
+        "weight": "3 - 5",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "30",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "Greyhound is the smallest and most temperamental representative of the greyhound clan. Playful, sociable, does not tolerate inattention to his own person.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Joint disease"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
+        "weight": "3-5",
+        "numberOfWalks": "2-3",
         "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "portionWeight": "150-250",
+        "breedCare": "The behavior of a greyhound in the house is the behavior of an average cat. For example, for an animal there is no greater happiness than diving under the covers to its owner and quietly sniffing inside this makeshift house. If there is no opportunity to occupy the master's bed, the Italian Greyhound will sit on the windowsill, closely watching what is happening in the yard, or lie on the armrests of the chairs. Of course, like any decorative dog, the Italian greyhound needs a personal corner with a cozy basket, or better, a mini-cottage. True, you will see a pet in its shelter for half an hour or an hour a day, because the animal will spend the rest of the time outside it."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/4fa/380_264_2/4fad1c75465376af2d8a72fca49827dd.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/1d6/380_264_2/1d6b9f8419f3ce7af6eddc915d013b1c.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/df5/380_264_2/df5de39a918a0c3435924502d3f36c4a.jpg"
       ]
     },
     {
       "id": 17,
-      "breed": "Pugi",
+      "breed": "Labrador retriever",
       "characteristics": {
         "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "training": 4,
+        "size": 4,
+        "mind": 5,
+        "security": 4,
         "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "agility": 3,
+        "difficulty": 3
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "Great Britain",
+        "lifetime": "12 - 13",
+        "height": "56 - 57",
+        "weight": "27 - 34",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "75",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "Labrador is one of the most popular breeds in the modern world. This is an ideal pet for families with children, hunters, rescuers and people with disabilities.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Obesity",
+        "Hip dysplasia"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "27-34",
+        "numberOfWalks": "2-3",
+        "eatTimes": "3-4",
+        "portionWeight": "500-700",
+        "breedCare": "The main commandment of the owner of the Labrador Retriever from the first days should be the principle of moderation in food. The fact is that these dogs are prone to overeating, which leads to obesity and very serious health problems. To avoid trouble, accustom the dog to a strict diet, watch the portion sizes, do not allow excess 'lunch' to remain in the bowl, do not get carried away with dog treats and, of course, do not treat your pet with pieces from the common table - salty, smoked and sweet food . If you prefer natural nutrition, coordinate the menu with your doctor and do not forget about vitamin and mineral supplements. When choosing ready-made feed, focus on products of proven brands from the upper price segment. With any type of diet, the dog must have constant access to fresh drinking water."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/3f8/380_264_2/3f8a14a3daf31486cb9072295a41bbca.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/f1d/380_264_2/f1dcac31797d68c35c72edad2ad0cfff.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/ec1/380_264_2/ec1d33fdf5228828f18705cc69488016.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/1c9/380_264_2/1c931f81f7449efd2ff07f24bfb7d4a0.jpg"
       ]
     },
     {
       "id": 18,
-      "breed": "Pugj",
+      "breed": "Maltese",
       "characteristics": {
-        "popularity": 4,
+        "popularity": 3,
         "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "size": 1,
+        "mind": 2,
+        "security": 1,
         "relationshipWithChildren": 5,
         "agility": 1,
-        "difficulty": 2
+        "difficulty": 4
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "country": "Italy",
+        "lifetime": "12 - 14",
+        "height": "21 - 25",
+        "weight": "3 - 4",
+        "cost": "150 - 300",
+        "maintenanceCost": "30",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Maltese (Maltese) is a breed of mobile and very emotional decorative dogs with snow-white “doll” fur.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Eye diseases",
+        "Susceptibility to dermatitis and deafness"
       ],
       "careNorms": {
-        "weight": "6-8",
+        "weight": "3-4",
         "numberOfWalks": "1-2",
         "eatTimes": "2-3",
         "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "breedCare": "Due to their miniature build, the Maltese even in small apartments feel free and comfortable. Equip your dog with a secluded corner with a bed away from drafts and sunlight, and he will be immensely happy. Maltese puppies have fragile bones, so they need to be handled as carefully as possible. In addition, restless pussies love to poke their nose into the most unexpected places in the apartment, which makes them easy to step on. The best way to protect the baby from accidental injuries in the first months of life is to enclose his habitat with a small aviary where you can also place a toilet."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/510/380_264_2/5107fe71879b506a528c819998122e27.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/497/380_264_2/49743bca48aced0ef1b024e612835114.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/e48/380_264_2/e4893745dcb6d911e23bdde957c30807.jpg"
       ]
     },
     {
       "id": 19,
-      "breed": "Pugk",
+      "breed": "German dog",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "popularity": 2,
+        "training": 4,
+        "size": 5,
+        "mind": 5,
+        "security": 5,
+        "relationshipWithChildren": 3,
+        "agility": 2,
+        "difficulty": 4
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "Germany",
+        "lifetime": "8 - 10",
+        "height": "80 - 90",
+        "weight": "50 - 80",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "150",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Great Dane is a true aristocrat of the canine world. He wins hearts with his majestic beauty, intelligence, affectionate attitude towards the household and excellent protective qualities.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Volvulus",
+        "Hip and elbow dysplasia",
+        "Arthritis",
+        "Bone cancer"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "50-80",
+        "numberOfWalks": "2-3",
+        "eatTimes": "4-5",
+        "portionWeight": "600-900",
+        "breedCare": "Despite the assurances of some breeders that the Great Dane feels good in a city apartment, due to its calm nature and moderate need for physical activity, most experts still recommend starting such a dog only for those who live in a private house with a fenced yard. The fact is that it is better to share living space with such a large-sized “neighbor” where there is enough square meters for all family members."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/13a/380_264_2/13a9f96e02fa99cdd2a260158c05f951.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/11e/380_264_2/11e3b12b2a1e3bcc848323f73d679c2a.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/c8f/380_264_2/c8ff9da32a89e1409d86d00629458265.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/117/380_264_2/1175a03b7588151970b06594d876b169.jpg"
       ]
     },
     {
       "id": 20,
-      "breed": "Pugl",
+      "breed": "German Shepherd",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "popularity": 5,
+        "training": 5,
+        "size": 5,
+        "mind": 5,
+        "security": 5,
         "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "agility": 4,
+        "difficulty": 3
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "Germany",
+        "lifetime": "10 - 13",
+        "height": "60 - 65",
+        "weight": "30 - 40",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "100",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The German Shepherd has lived side by side with humans since time immemorial. Today it is one of the most popular and recognizable dog breeds on the planet.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Volvulus",
+        "Hip and elbow dysplasia",
+        "Arthritis",
+        "Bone cancer"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "30-40",
+        "numberOfWalks": "3-4",
+        "eatTimes": "3-4",
+        "portionWeight": "600-800",
+        "breedCare": "The structural features of the coat allow the German Shepherd to live both indoors and in the yard. In the second case, a spacious aviary with an insulated booth is needed. In addition, it is desirable to at least partially protect the enclosure from rain and wind. Immediately after the appearance of the dog in the house, determine its own place for it, where the bedding or mattress, toys will lie. In the immediate vicinity of it there should be no direct sources of heat and drafts. For the bed, natural materials are preferred, which do not need complex cleaning. A sufficient number of toys will protect furniture and shoes from sharp teeth."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/1b9/380_264_2/1b97b693584fdeeb9225206aa10c0e61.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/a95/380_264_2/a954f995df7ff020bf7ffb901c286f85.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/300/380_264_2/300ab030041324851ec85f8360d0e919.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/c90/380_264_2/c90b5b09ee2f5c7c759a24805c4f5f3d.jpg"
       ]
     },
     {
       "id": 21,
-      "breed": "Pugm",
+      "breed": "Pomeranian",
       "characteristics": {
         "popularity": 4,
         "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
+        "size": 1,
+        "mind": 2,
+        "security": 1,
         "relationshipWithChildren": 5,
         "agility": 1,
-        "difficulty": 2
+        "difficulty": 5
       },
       "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "country": "Germany",
+        "lifetime": "12 - 16",
+        "height": "12 - 18",
+        "weight": "1 - 3",
         "cost": "300 - 700",
         "maintenanceCost": "34",
         "careTime": "1"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Pomeranian looks like a child's toy. This fluffy kolobok will become a true friend and will brighten up the most cloudy day with a ringing bark.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Ligament weakness",
+        "Subluxation of the knee joint",
+        "Dysbacteriosis of the gastrointestinal tract",
+        "Tearing",
+        "Hypoglycemia"
       ],
       "careNorms": {
-        "weight": "6-8",
+        "weight": "1-3",
         "numberOfWalks": "1-2",
         "eatTimes": "2-3",
         "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "breedCare": "Long and fluffy hair is the main asset of the Pomeranian, so the lion's share of care falls on thorough combing. Representatives of this breed molt twice a year. At the same time, the first molt occurs in the fourth or sixth month, when the “adult” wool cover replaces the puppy's down. In Pomeranian females, molting begins during estrus and after childbirth, so do not be afraid. However, permanent bald spots should make you think about changing your pet's diet and choosing new cosmetic products for hair care."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/6fe/380_264_2/6fe5106cdca0acd7d8c30337aaf0d1c5.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/4c2/380_264_2/4c2a81be0083552b2d6b29e2e76313ea.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/b72/380_264_2/b72c5e6d7a0b8773618aea76bdbba796.jpg"
       ]
     },
     {
       "id": 22,
-      "breed": "Pugn",
+      "breed": "Pit bull",
       "characteristics": {
         "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
+        "training": 5,
+        "size": 3,
+        "mind": 4,
+        "security": 5,
+        "relationshipWithChildren": 3,
+        "agility": 5,
         "difficulty": 2
       },
       "observation": {
-        "country": "China",
+        "country": "USA",
         "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "height": "46 - 53",
+        "weight": "16 - 27",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "60",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "The Pit Bull or American Pit Bull Terrier is a working breed. She appeared as a result of crossing terriers and English bulldogs.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Aortic stenosis"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "16-27",
+        "numberOfWalks": "2-3",
+        "eatTimes": "4-5",
+        "portionWeight": "300-500",
+        "breedCare": "American Pit Bull Terriers are medium-sized dogs, which allows them to be kept in ordinary city apartments. Some pet owners prefer to keep their pets in kennels, but they still need to make time for daily interactions with their pet. Leaving a puppy alone for a long time, sacrificing its socialization, you risk: it can grow into an angry and distrustful dog that can rush at people."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/a1e/380_264_2/a1ea0514ea2c0b521ce92ddbabc25fcf.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/0fb/380_264_2/0fb9ed3cb3c5e049ccf3813a8d1d1bb4.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/d5c/380_264_2/d5cbd45098c9608e58ecc885c333bb9e.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/45b/380_264_2/45b14b213e22e625e569c21644e76742.jpg"
       ]
     },
     {
       "id": 23,
-      "breed": "Pugo",
+      "breed": "Chow chow",
       "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
+        "popularity": 3,
+        "training": 3,
+        "size": 4,
         "mind": 3,
-        "security": 2,
+        "security": 4,
         "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
+        "agility": 2,
+        "difficulty": 4
       },
       "observation": {
         "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
+        "lifetime": "9 - 12",
+        "height": "48 - 56",
+        "weight": "25 - 32",
         "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
+        "maintenanceCost": "100",
+        "careTime": "2"
       },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
+      "description": "Chow Chow is a dog with a striking appearance, a history covered in legends and an amazing, completely unknown character.",
       "careFeatures": {
         "combingWool": "1 - 2 times per week",
         "bathing": "1 - 2 times per week",
         "cleanTheEars": false
       },
       "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
+        "Myopathy",
+        "Atopic dermatitis",
+        "Inversion of the century",
+        "Hip dysplasia"
       ],
       "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
+        "weight": "25-32",
+        "numberOfWalks": "2-4",
+        "eatTimes": "2-4",
+        "portionWeight": "400-700",
+        "breedCare": "The conditions of a city apartment are quite suitable for keeping a Chow Chow. This dog is distinguished by a balanced and calm character and, being alone, will never howl loudly, annoying neighbors, or spoiling furniture. And the cup is amazingly clean, which all owners note with special pride."
       },
       "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
-      ]
-    },
-    {
-      "id": 24,
-      "breed": "Pugp",
-      "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
-      },
-      "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
-      },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
-      "careFeatures": {
-        "combingWool": "1 - 2 times per week",
-        "bathing": "1 - 2 times per week",
-        "cleanTheEars": false
-      },
-      "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
-      ],
-      "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
-      },
-      "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
-      ]
-    },
-    {
-      "id": 25,
-      "breed": "Pugr",
-      "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
-      },
-      "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
-      },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
-      "careFeatures": {
-        "combingWool": "1 - 2 times per week",
-        "bathing": "1 - 2 times per week",
-        "cleanTheEars": false
-      },
-      "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
-      ],
-      "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
-      },
-      "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
-      ]
-    },
-    {
-      "id": 26,
-      "breed": "Pugs",
-      "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
-      },
-      "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
-      },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
-      "careFeatures": {
-        "combingWool": "1 - 2 times per week",
-        "bathing": "1 - 2 times per week",
-        "cleanTheEars": false
-      },
-      "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
-      ],
-      "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
-      },
-      "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
-      ]
-    },
-    {
-      "id": 27,
-      "breed": "Pugt",
-      "characteristics": {
-        "popularity": 4,
-        "training": 2,
-        "size": 2,
-        "mind": 3,
-        "security": 2,
-        "relationshipWithChildren": 5,
-        "agility": 1,
-        "difficulty": 2
-      },
-      "observation": {
-        "country": "China",
-        "lifetime": "12 - 15",
-        "height": "20 - 25",
-        "weight": "6 - 8",
-        "cost": "300 - 700",
-        "maintenanceCost": "34",
-        "careTime": "1"
-      },
-      "description": "Pug is a very ancient and world famous breed. How exactly these dogs originated is still unclear. But perhaps they were obtained by crossing other breeds in ancient China, during the Han Dynasty.",
-      "careFeatures": {
-        "combingWool": "1 - 2 times per week",
-        "bathing": "1 - 2 times per week",
-        "cleanTheEars": false
-      },
-      "possibleProblems": [
-        "Skin disease caused by a small mite",
-        "Pug encephalitis",
-        "Nerve degeneration",
-        "Corneal ulcers",
-        "Keratoconjunctivitis",
-        "Pigmentary keratitis"
-      ],
-      "careNorms": {
-        "weight": "6-8",
-        "numberOfWalks": "1-2",
-        "eatTimes": "2-3",
-        "portionWeight": "100-200",
-        "breedCare": "Caring for this breed is not too troublesome. It is enough to comb wool in a day, and even less often. More often it should be done only during the molting period, which traditionally increases twice a year. Once a month the dog can be washed. However, you should pay attention to the folds, which many pugs. Dirt and dust should be carefully cleaned between the folds so that bacteria do not multiply in these places and do not provoke infections. And from time to time treat the nasal fold with hydrogen peroxide. Also, it is recommended to wipe the eyes with a cotton swab pre-soaking it in weak tea. From time to time you need to clean the ears, trim the claws. As for walks and their duration, a leisurely walk can last an hour and a half, but an active run is no longer than fifteen minutes. It is desirable to walk twice a day, but sometimes once will be enough. The temperature indoors or outdoors should be treated very carefully, as severe overheating or hypothermia can be fatal for pugs. This is due to their short coat, which does not protect against the cold. And yet, the inability of the body to effectively remove excess heat. Therefore, in winter you should walk with a pug only in extra clothes, and in summer it is desirable to have air conditioning in the apartment."
-      },
-      "images": [
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-e1484997881871.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0-e1484997914894.jpg",
-        "https://dogipedia.ru/wp-content/uploads/2017/01/-%D0%BF%D0%BE%D1%80%D0%BE%D0%B4%D1%8B-%D0%BC%D0%BE%D0%BF%D1%81-e1484998407926.jpg"
+        "https://lapkins.ru/upload/resize_cache/iblock/0cb/380_264_2/0cb853cab5802b81f573a04dc272f1e6.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/2a5/380_264_2/2a5ba4a7e4551c360721cda1a2bd3bb6.jpg",
+        "https://lapkins.ru/upload/resize_cache/iblock/2a5/380_264_2/2a5ba4a7e4551c360721cda1a2bd3bb6.jpg"
       ]
     }
   ]
