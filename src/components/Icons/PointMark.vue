@@ -1,25 +1,25 @@
 <template>
   <div class="icon-wrapp">
     <svg
-      width="12"
-      height="8"
-      viewBox="0 0 12 8"
+      width="18"
+      height="14"
+      viewBox="0 0 18 14"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M10.59 7.40991L6 2.82991L1.41 7.40991L0 5.99991L6 -8.7738e-05L12 5.99991L10.59 7.40991Z"
-        fill="black"
+        d="M5.59 10.58L1.42 6.41L0 7.82L5.59 13.41L17.59 1.41L16.18 0L5.59 10.58Z"
+        fill="#30D158"
       />
     </svg>
   </div>
 </template>
 
 <script>
-import { colors } from '../styles'
+import { colors } from '../../assets/styles'
 
 export default {
-  name: 'ChevronUp',
+  name: 'PointMarkIcon',
 
   props: {
     color: {

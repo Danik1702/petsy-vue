@@ -282,14 +282,14 @@
 </template>
 
 <script>
-import LogoIcon from '@/assets/icons/Logo.vue'
-import HomeIcon from '@/assets/icons/Home.vue'
-import PawIcon from '@/assets/icons/Paw.vue'
-import SearchIcon from '@/assets/icons/Search.vue'
-import LikeAndDislikeIcon from '@/assets/icons/LikeAndDislike.vue'
-import QuestionMarkIcon from '@/assets/icons/QuestionMark.vue'
-import BurgerMenuIcon from '@/assets/icons/BurgerMenu.vue'
-import CrossIcon from '@/assets/icons/Cross.vue'
+import LogoIcon from '@/components/Icons/Logo.vue'
+import HomeIcon from '@/components/Icons/Home.vue'
+import PawIcon from '@/components/Icons/Paw.vue'
+import SearchIcon from '@/components/Icons/Search.vue'
+import LikeAndDislikeIcon from '@/components/Icons/LikeAndDislike.vue'
+import QuestionMarkIcon from '@/components/Icons/QuestionMark.vue'
+import BurgerMenuIcon from '@/components/Icons/BurgerMenu.vue'
+import CrossIcon from '@/components/Icons/Cross.vue'
 import { ROUTES } from '@/constants'
 import { colors } from '@/assets/styles'
 import { text } from '@/mock/engText'

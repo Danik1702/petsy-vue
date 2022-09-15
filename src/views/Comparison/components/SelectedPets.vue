@@ -20,8 +20,8 @@
 </template>
 
 <script>
-import CrossIcon from '@/assets/icons/Cross.vue'
-import PlusIcon from '@/assets/icons/Plus.vue'
+import CrossIcon from '@/components/Icons/Cross.vue'
+import PlusIcon from '@/components/Icons/Plus.vue'
 import PetAvatar from './PetAvatar.vue'
 import { text } from '@/mock/engText'
 import { ROUTES } from '@/constants'

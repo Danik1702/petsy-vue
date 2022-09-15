@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import LogoIcon from '@/assets/icons/Logo.vue'
+import LogoIcon from '@/components/Icons/Logo.vue'
 import { ROUTES } from '@/constants'
 import { text } from '@/mock/engText'
 

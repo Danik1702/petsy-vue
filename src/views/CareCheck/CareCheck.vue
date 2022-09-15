@@ -179,7 +179,7 @@
 <script>
 import { text } from '@/mock/engText'
 import { validateInput } from './helpers/validateInput'
-import DogAvatarIcon from '@/assets/icons/DogAvatar.vue'
+import DogAvatarIcon from '@/components/Icons/DogAvatar.vue'
 import Select from '@/components/Input/Select.vue'
 import TextInput from '@/components/Input/Text.vue'
 import RadioGroup from '@/components/Input/RadioGroup.vue'

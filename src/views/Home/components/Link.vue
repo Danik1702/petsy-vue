@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import RightArrowIcon from '@/assets/icons/ArrowRight.vue'
+import RightArrowIcon from '@/components/Icons/ArrowRight.vue'
 
 export default {
   name: 'HomeLink',

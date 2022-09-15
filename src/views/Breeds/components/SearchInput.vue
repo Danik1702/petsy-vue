@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import SearchIcon from '@/assets/icons/Search.vue'
+import SearchIcon from '@/components/Icons/Search.vue'
 
 export default {
   name: 'SearchInput',

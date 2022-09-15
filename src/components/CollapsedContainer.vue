@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import ChevronUp from '@/assets/icons/ChevronUp.vue'
+import ChevronUp from '@/components/Icons/ChevronUp.vue'
 
 export default {
   name: 'CollapsedContainer',

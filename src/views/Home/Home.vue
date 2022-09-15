@@ -41,8 +41,8 @@
 </template>
 
 <script>
-import LogoIcon from '@/assets/icons/Logo.vue'
-import HomePageQuestionsIcon from '@/assets/icons/HomePageQuestions.vue'
+import LogoIcon from '@/components/Icons/Logo.vue'
+import HomePageQuestionsIcon from '@/components/Icons/HomePageQuestions.vue'
 import PetInfoMock from './components/PetInfo.vue'
 import HomeLink from './components/Link.vue'
 import { text } from '@/mock/engText'

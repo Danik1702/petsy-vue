@@ -1,25 +1,25 @@
 <template>
   <div class="icon-wrapp">
     <svg
-      width="14"
-      height="14"
-      viewBox="0 0 14 14"
+      width="12"
+      height="8"
+      viewBox="0 0 12 8"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
-        :fill="color"
+        d="M10.59 7.40991L6 2.82991L1.41 7.40991L0 5.99991L6 -8.7738e-05L12 5.99991L10.59 7.40991Z"
+        fill="black"
       />
     </svg>
   </div>
 </template>
 
 <script>
-import { colors } from '../styles'
+import { colors } from '../../assets/styles'
 
 export default {
-  name: 'CrossIcon',
+  name: 'ChevronUp',
 
   props: {
     color: {

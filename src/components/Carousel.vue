@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import ChevronUpIcon from '@/assets/icons/ChevronUp.vue'
+import ChevronUpIcon from '@/components/Icons/ChevronUp.vue'
 
 export default {
   name: 'Carousel',

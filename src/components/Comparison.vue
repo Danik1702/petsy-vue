@@ -39,9 +39,9 @@
 </template>
 
 <script>
-import CrossIcon from '@/assets/icons/Cross.vue'
-import PointMarkIcon from '@/assets/icons/PointMark.vue'
-import LikeAndDislikeIcon from '@/assets/icons/LikeAndDislike.vue'
+import CrossIcon from '@/components/Icons/Cross.vue'
+import PointMarkIcon from '@/components/Icons/PointMark.vue'
+import LikeAndDislikeIcon from '@/components/Icons/LikeAndDislike.vue'
 import { text } from '@/mock/engText'
 import { ROUTES } from '@/constants'
 
