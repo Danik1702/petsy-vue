@@ -1,4 +1,4 @@
-# pretsy
+# petsy
 
 ## Project setup
 ```
